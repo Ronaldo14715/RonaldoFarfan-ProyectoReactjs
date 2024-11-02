@@ -1,12 +1,12 @@
 import './App.css'
-import NavbarComponent from './components/NavbarComponent'
-import ItemListContainer from './components/itemListContainer'
+import Layout from './components/Layout'
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 function App() {
 
   return (
     <div>
-      <NavbarComponent />
-      <ItemListContainer greeTing='Bienvenidos.' texto='otra prop'/>
+      <Layout />
     </div>
   )
 }

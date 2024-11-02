@@ -1,8 +1,8 @@
 const CartWidget =  ({counter}) =>{
     return (
         <div className="cartWidgetContainer">
-            <img src="./cart.png" alt="cart" className="cartIcon" />
-            <p className="cartCounter">{counter}</p>
+            <img src="./src/assets/img/cart.webp" alt="cart" className="cart-image"/>
+            <span>{counter}</span>
         </div>
     )
 }
